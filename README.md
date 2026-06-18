@@ -3,7 +3,6 @@
 This C++ program takes **three integer inputs** from the user and checks whether all three values are equal.
 
 ---
-
 ## 🧠 Objective
 To practice conditional statements and logical operators in C++.
 
