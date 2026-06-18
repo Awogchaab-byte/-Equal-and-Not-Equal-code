@@ -1,8 +1,25 @@
-# -Equal-and-Not-Equal-code
- C++ program that takes in three integer values from the user and checks if they are equal using the equality operator. If they are equal, print "Equal" to the screen, otherwise print "Not equal"
-Q3.cpp
-Makefile.win
-Q3.dev
-Q3.exe
-Q.layout
-Q3.o
+# 🔍 Equality Check Program (C++)
+
+This C++ program takes **three integer inputs** from the user and checks whether all three values are equal.
+
+---
+
+## 🧠 Objective
+To practice conditional statements and logical operators in C++.
+
+---
+
+## 📜 Problem Statement
+> Write a C++ program that reads three integers and prints **"Equal"** if all three are the same, otherwise prints **"Not Equal"**.
+
+---
+
+## 💻 Code Overview
+The program:
+1. Prompts the user to enter three integers (`x`, `y`, `z`).
+2. Uses the logical **AND (`&&`)** operator to check equality:
+   ```cpp
+   if (x == y && y == z)
+       cout << "Equal";
+   else
+       cout << "Not Equal";
